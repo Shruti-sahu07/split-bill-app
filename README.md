@@ -1,3 +1,86 @@
+# SplitExpense
+A smart bill-splitting web application inspired by Splitwise, designed to help users manage shared expenses easily and fairly.
+
+## 📖 About the Project
+Managing group expenses can be confusing who paid how much, and who owes whom?  
+**SplitExpense** solves this problem by allowing users to add expenses, mark who paid, and automatically calculate fair splits among participants.  
+
+This project is built with **React** and designed for future backend integration.
+
+## 📸 Screenshots
+### Dashboard
+Overview of all expenses and balances.
+![Dashboard](assets/dashboard.png) 
+### Add Expense
+Add new expenses and assign who paid. 
+![Add Expense](assets/addExpense.png)
+### Manage Users
+Easily add or manage participants.  
+![Manage Users](assets/manageUser.png)
+### Settlement Receipt
+View who owes whom and download receipt.
+![Settlement Receipt](assets/receipt.png) 
+
+## ✨ Features
+- Add and manage group expenses  
+- Automatic split calculation  
+- Track who owes whom  
+- Download settlement receipt in PNG format  
+- Simple and user-friendly interface 
+
+
+## 🛠️ Tech Stack
+- **Frontend:** React, JavaScript, CSS/Bootstrap  
+- **Future Scope:** Node.js + Express, Database (MySQL/MongoDB)
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+- Node.js and npm installed  
+- Git installed  
+
+### Installation
+```bash
+git clone https://github.com/Shruti-sahu07/split-bill-app
+cd SplitExpense
+npm install
+npm start 
+```
+The app will run at http://localhost:3000/
+
+## 📂 Usage
+
+1.Enter total expenses and select who paid.
+
+2.Add participants and split amount equally.
+
+3.View summary of who owes whom.
+
+4.Download receipt for record-keeping.
+
+## 📁 Project Structure
+SplitExpense/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   └── App.js
+├── package.json
+└── README.md
+
+## 🚧 Future Enhancements
+
+User authentication (Login/Signup)
+
+Group-wise expense tracking
+
+Cloud storage for receipts
+
+Dark mode UI 
+
+<!-- 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
